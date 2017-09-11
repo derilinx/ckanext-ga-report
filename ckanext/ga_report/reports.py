@@ -4,7 +4,8 @@ from itertools import groupby
 from sqlalchemy import func
 
 from ckan import model
-from ckan.lib.helpers import OrderedDict
+# from ckan.lib.helpers import OrderedDict
+from sqlalchemy.util import OrderedDict
 from ckanext.dgu.lib.publisher import go_up_tree
 from ga_model import GA_Url  # , GA_Stat, GA_ReferralStat, GA_Publisher
 
